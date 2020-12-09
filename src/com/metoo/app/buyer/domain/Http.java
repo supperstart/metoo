@@ -24,7 +24,7 @@ import org.apache.http.util.EntityUtils;
 /**
  * httputil
  * 
- * @author lvchaohua update 0
+ * @author lvchaohua update 2
  *
  */
 public class Http {
