@@ -11,6 +11,11 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
+/**
+ * 
+ * @author 46075 1
+ *
+ */
 public class Httpst {
 
 	 
