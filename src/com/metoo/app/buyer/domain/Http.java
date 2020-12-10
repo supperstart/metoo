@@ -24,7 +24,7 @@ import org.apache.http.util.EntityUtils;
 /**
  * httputil
  * 
- * @author lvchaohua Eclips update 587 覆盖本地的错误代码 1
+ * @author lvchaohua Eclips
  *
  */
 public class Http {
