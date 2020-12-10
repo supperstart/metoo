@@ -221,6 +221,7 @@ public class MAddressServiceImpl implements MAddressService{
 				map.put("email", obj.getEmail());
 				map.put("telephone", obj.getTelephone());
 				map.put("AreaInfo", obj.getArea_info());
+				//map.put("AreaInfo", StringEscapeUtils.unescapeJava(obj.getArea_info())); 转义非法字符(表情包)
 				map.put("AreaZip", obj.getZip());
 				//比较当前用户id与地址对应得id是否相同
 				if (obj.getUser().getId()
