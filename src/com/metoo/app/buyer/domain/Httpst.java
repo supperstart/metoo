@@ -13,7 +13,7 @@ import org.apache.http.util.EntityUtils;
 
 /**
  * 
- * @author 46075 1
+ * @author 46075 Eclips update
  *
  */
 public class Httpst {
