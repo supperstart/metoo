@@ -193,7 +193,7 @@ public class MAppRegisterViewActionV3 {
 				if (addressList.size() == 0) {
 					address.setAddTime(new Date());
 					address.setTrueName(true_name);
-					address.setArea_info(area_info);
+					address.setArea_info(CommUtil.null2String(area_info));
 					address.setMobile(map.get("phoneNumber").toString());
 					address.setTelephone(map.get("phoneNumber").toString());
 					address.setDefault_val(user.getAddrs().size() > 0 ? 0 : 1);
